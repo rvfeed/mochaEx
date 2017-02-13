@@ -1,0 +1,17 @@
+{
+  "name": "mochaex",
+  "version": "1.0.0",
+  "description": "My first mocha test",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Raja Bapu Boddu",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.1",
+    "mocha": "^3.2.0",
+    "request": "^2.79.0"
+  }
+}
